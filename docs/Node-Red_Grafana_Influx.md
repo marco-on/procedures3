@@ -3,7 +3,7 @@
 El Servidor virtual con OS Ubuntu 20.04 contiene los servicios de Node-Red, InfluxDB y Grafana como se muestra en la siguiente imagen. Node-Red soporta los protocolos de la capa de aplicación que se van a utilizar: CoAP y MQTT. Adicionalmente, desde el nodo correspondiente en Node-Red, se establece la conexión con InfluxDB para el almacenamiento de los datos. La visualización de los datos se realiza usando Grafana, el cual, alimenta sus gráficos con los datos de la base de datos que está en InfluxDB.
 
 <p align="center">
-  <img width=460 src="../images/iccs_vm_comm.png">
+  <img width=560 src="../images/iccs_vm_comm.png">
 </p>
 
 - Contenido
@@ -13,7 +13,7 @@ El Servidor virtual con OS Ubuntu 20.04 contiene los servicios de Node-Red, Infl
 
 ## Conexión entre Node-Red e InfluxDB
 <p align="center">
-  <img width=360 src="../images/influx_nodered.png">
+  <img width=480 src="../images/influx_nodered.png">
 </p>
 
 1. Acceda a InfluxDB desde http://192.168.56.1:8086. En el menú de la columna izquierda, seleccione la opción _Data_ y luego en las pestañas en _API Tokens_. 
@@ -84,7 +84,7 @@ El Servidor virtual con OS Ubuntu 20.04 contiene los servicios de Node-Red, Infl
 ## Conexión entre Grafana e InfluxDB
 
 <p align="center">
-  <img width=360 src="../images/influx_grafana.png">
+  <img width=480 src="../images/influx_grafana.png">
 </p>
 
 1. Acceda a Grafana desde http://192.168.56.1:3000. En el menú de la columna izquierda, vaya a configuración y _Data Sources_.
